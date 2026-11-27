@@ -4,7 +4,7 @@ import numpy as np
 K = 83          # binary put strike
 HEDGE_SHARES = [0, 40, 83, 95.4, 150]     # shares purchased
 S0 = 83        # price paid for the stock
-HEDGE_PRICE = 0.12 # prediction market hsare price
+HEDGE_PRICE = 0.02 # prediction market hsare price
 
 for hedge_share in HEDGE_SHARES:
     premium = hedge_share * HEDGE_PRICE
